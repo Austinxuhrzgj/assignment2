@@ -32,10 +32,6 @@ void draw() {
  translate(sunx,-100);
   sun();
   popMatrix();
-  sunx=sunx+1;
-  if (sunx ==600){
-    sunx =-800;
-  }
   fill(255);
   stroke(255);
   ellipse(x6,150,110,110);
